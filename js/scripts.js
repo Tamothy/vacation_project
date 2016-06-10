@@ -1,16 +1,17 @@
 $(document).ready(function () {
   $("#blanks form").submit(function (event) {
     var nameInput = $("input#name").val();
-    var foodInput = $("input#food").val();
-    var musicInput = $("input#music").val();
-    var colorInput = $("input#color").val();
+    var ageInput = $("input#age").val();
+    var flowerInput = $("select#flower").val();
+    var winterInput = $("select#winter_sport").val();
+    var seasonInput = $(input:radio[name=season]:checked).val();
 
     $(".name").text(nameInput);
-    $(".food").text(foodInput);
-    $(".music").text(musicInput);
-    $(".color").text(colorInput);
+    $(".age").text(foodInput);
+    $(".flower").text(flowerInput);
+    $(".winter_sport").text(winterInput);
 
-    $("#colorLink").attr("href", "http://www.color-hex.com/color/" + colorInput.slice(1));
+    //$("#colorLink").attr("href", "http://www.color-hex.com/color/" + colorInput.slice(1));
 
     $("#results").show();
 
