@@ -1,6 +1,7 @@
-/*#results {
+#france, #hawaii, #netherlands, #switzerland {
   display: none;
-}*/
+  text-align: center;
+}
 
 img {
   width: 640px;
