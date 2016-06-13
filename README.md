@@ -10,6 +10,7 @@ This project contains questions that results in vacation destinations. The desti
 
 ## Setup/Installation Requirements
 
+* Check out the GitHub pages link: https://tamothy.github.io/vacation_project
 * Clone repository if interested in changing project
 * Use Atom to customize changes
 * Make sure to commit regularly on terminal
